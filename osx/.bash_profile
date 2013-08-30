@@ -1,5 +1,5 @@
 # load dotfiles root .bash_profile
-source ~/.dotfiles/.bash_profile_base
+source ~/.dotfiles/common/.bash_profile
 
 # load osx .aliases
 source ~/.dotfiles/osx/.aliases_osx
