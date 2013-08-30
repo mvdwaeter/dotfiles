@@ -1,0 +1,30 @@
+[
+    { "keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+    { "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+
+    { "keys": ["ctrl+shift+h"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+l"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    { "keys": ["ctrl+shift+k"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+j"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+
+    { "keys": ["ctrl+alt+h"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["ctrl+alt+l"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    { "keys": ["ctrl+alt+k"], "command": "scroll_lines", "args": {"amount": 8.0} },
+    { "keys": ["ctrl+alt+j"], "command": "scroll_lines", "args": {"amount": -8.0} },
+
+    { "keys": ["ctrl+shift+alt+h"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+    { "keys": ["ctrl+shift+alt+l"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+
+    { "keys": ["ctrl+super+h"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+super+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["ctrl+super+k"], "command": "swap_line_up" },
+    { "keys": ["ctrl+super+j"], "command": "swap_line_down" },
+    { "keys": ["ctrl+super+shift+h"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["ctrl+super+shift+l"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+
+    { "keys": ["super+alt+ctrl+j"], "command": "code_intel_auto_complete" },
+    { "keys": ["super+alt+ctrl+l"], "command": "goto_python_definition" },
+    { "keys": ["super+alt+ctrl+h"], "command": "back_to_python_definition"}
+]

@@ -1,0 +1,17 @@
+# application shortcuts
+alias s="~/.dotfiles/osx/open_sublime.sh"
+alias o="open ."
+alias st="open -a \"SourceTree\" ."
+alias t="tree -C -a -I .git"
+
+# navigation
+p() {
+    cd ~/Sites/"$@";
+}
+
+# show/hide hidden files in Finder
+alias showdesktop="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
+alias hidedesktop="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+
+# flush dns cache
+alias flushdns="dscacheutil -flushcache"

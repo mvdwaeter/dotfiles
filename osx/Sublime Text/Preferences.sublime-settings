@@ -1,0 +1,57 @@
+{
+	"auto_match_enabled": false,
+    "detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+        "*.sublime-project",
+        "*.sublime-workspace"
+	],
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+        ".sass-cache",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_size": 15.0,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+    "line_padding_bottom": 2,
+    "line_padding_top": 2,
+	"remember_open_files": false,
+    "scroll_speed": 8,
+	"shift_tab_unindent": false,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false,
+    "show_minimap": false,
+    "rulers": [ 80 ]
+}
