@@ -3,7 +3,7 @@
 	email = mvdwaeter@gmail.com
 
 [core]
-	excludesfile = /Users/michael/.gitignore
+	excludesfile = ~/.gitignore
     editor = sublime
 
 [color]
@@ -46,7 +46,7 @@
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"

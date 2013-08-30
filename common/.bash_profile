@@ -4,10 +4,10 @@ source ~/.bashrc
 fi
 
 # load .bash_prompt
-source ~/.dotfiles/.bash_prompt
+source ~/.dotfiles/common/.bash_prompt
 
 # load dotfiles root .aliases_base
-source ~/.dotfiles/.aliases_base
+source ~/.dotfiles/common/.aliases
 
 # prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"

@@ -4,10 +4,10 @@ echo "symlink osx .bash_profile"
 [ ! -f ~/.bash_profile ] && ln -s ~/.dotfiles/osx/.bash_profile ~/.bash_profile
 
 echo "symlink .gitconfig"
-[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/gitconfig.symlink ~/.gitconfig
+[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/common/.gitconfig ~/.gitconfig
 
 echo "symlink .gitignore"
-[ ! -f ~/.gitignore ] && ln -s ~/.dotfiles/gitignore.symlink ~/.gitignore
+[ ! -f ~/.gitignore ] && ln -s ~/.dotfiles/common/.gitignore ~/.gitignore
 
 echo "symlink Sublime Text User dir"
 rm -r ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
