@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 echo "git clone .oh-my-zsh"
 [ ! -d ~/.oh-my-zsh ] &&  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.dotfiles/.oh-my-zsh
 
