@@ -8,8 +8,8 @@ chsh -s /bin/zsh
 echo "symlink .zshrc"
 [ ! -f ~/.zshrc ] && ln -s ~/.dotfiles/common/.zshrc ~/.zshrc
 
-echo "symlink osx .bash_profile"
-[ ! -f ~/.bash_profile ] && ln -s ~/.dotfiles/osx/.bash_profile ~/.bash_profile
+echo "symlink osx .profile"
+[ ! -f ~/.profile ] && ln -s ~/.dotfiles/osx/.profile ~/.profile
 
 echo "symlink .gitconfig"
 [ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/osx/.gitconfig ~/.gitconfig

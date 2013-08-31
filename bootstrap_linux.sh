@@ -8,8 +8,8 @@ chsh -s /bin/zsh
 echo "symlink .zshrc"
 [ ! -f ~/.zshrc ] && ln -s ~/.dotfiles/common/.zshrc ~/.zshrc
 
-echo "symlink linux .bash_profile"
-[ ! -f ~/.bash_profile ] && ln -s ~/.dotfiles/linux/.bash_profile ~/.bash_profile
+echo "symlink linux .profile"
+[ ! -f ~/.profile ] && ln -s ~/.dotfiles/linux/.profile ~/.profile
 
 echo "symlink .screenrc"
 [ ! -f ~/.screenrc ] && ln -s ~/.dotfiles/linux/.screenrc ~/.screenrc
