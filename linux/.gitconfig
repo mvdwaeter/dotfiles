@@ -25,7 +25,7 @@
     ps = push
 
 [push]
-    default = simple
+    default = matching
 
 [url "git@github.com:"]
     insteadOf = "gh:"
