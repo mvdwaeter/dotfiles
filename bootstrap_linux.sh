@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "git clone .oh-my-zsh"
-[ ! -f ~/.oh-my-zsh ] &&  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.dotfiles/.oh-my-zsh
+[ ! -d ~/.oh-my-zsh ] &&  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.dotfiles/.oh-my-zsh
 
 echo "set zsh as default shell"
 chsh -s /bin/zsh
