@@ -1,10 +1,9 @@
 [user]
-	name = Michael van de Waeter
-	email = mvdwaeter@gmail.com
+    name = Michael van de Waeter
+    email = mvdwaeter@gmail.com
 
 [core]
-	excludesfile = ~/.gitignore
-    editor = sublime
+    excludesfile = ~/.gitignore
 
 [color]
     ui = true
@@ -43,11 +42,3 @@
 
 [url "git://bitbucket.org/"]
     insteadOf = "bitbucket:"
-
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true

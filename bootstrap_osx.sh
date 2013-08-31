@@ -12,7 +12,7 @@ echo "symlink osx .bash_profile"
 [ ! -f ~/.bash_profile ] && ln -s ~/.dotfiles/osx/.bash_profile ~/.bash_profile
 
 echo "symlink .gitconfig"
-[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/common/.gitconfig ~/.gitconfig
+[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/osx/.gitconfig ~/.gitconfig
 
 echo "symlink .gitignore"
 [ ! -f ~/.gitignore ] && ln -s ~/.dotfiles/common/.gitignore ~/.gitignore

@@ -15,7 +15,7 @@ echo "symlink .screenrc"
 [ ! -f ~/.screenrc ] && ln -s ~/.dotfiles/linux/.screenrc ~/.screenrc
 
 echo "symlink .gitconfig"
-[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/common/.gitconfig ~/.gitconfig
+[ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/linux/.gitconfig ~/.gitconfig
 
 echo "symlink .gitignore"
 [ ! -f ~/.gitignore ] && ln -s ~/.dotfiles/common/.gitignore ~/.gitignore
