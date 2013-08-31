@@ -5,11 +5,8 @@ echo "git clone .oh-my-zsh"
 echo "set zsh as default shell"
 chsh -s /bin/zsh
 
-echo "symlink .zshrc"
-[ ! -f ~/.zshrc ] && ln -s ~/.dotfiles/common/.zshrc ~/.zshrc
-
-echo "symlink linux .profile"
-[ ! -f ~/.profile ] && ln -s ~/.dotfiles/linux/.profile ~/.profile
+echo "symlink linux .zshrc"
+[ ! -f ~/.profile ] && ln -s ~/.dotfiles/linux/.zshrc ~/.zshrc
 
 echo "symlink .screenrc"
 [ ! -f ~/.screenrc ] && ln -s ~/.dotfiles/linux/.screenrc ~/.screenrc

@@ -1,5 +1,5 @@
-# load dotfiles root .profile
-source ~/.dotfiles/common/.profile
+# load dotfiles root .zshrc
+source ~/.dotfiles/common/.zshrc
 
 # load osx .aliases
 source ~/.dotfiles/osx/.aliases_osx

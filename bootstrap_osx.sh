@@ -5,11 +5,8 @@ echo "git clone .oh-my-zsh"
 echo "set zsh as default shell"
 chsh -s /bin/zsh
 
-echo "symlink .zshrc"
-[ ! -f ~/.zshrc ] && ln -s ~/.dotfiles/common/.zshrc ~/.zshrc
-
-echo "symlink osx .profile"
-[ ! -f ~/.profile ] && ln -s ~/.dotfiles/osx/.profile ~/.profile
+echo "symlink osx .zshrc"
+[ ! -f ~/.zshrc ] && ln -s ~/.dotfiles/osx/.zshrc ~/.zshrc
 
 echo "symlink .gitconfig"
 [ ! -f ~/.gitconfig ] && ln -s ~/.dotfiles/osx/.gitconfig ~/.gitconfig
